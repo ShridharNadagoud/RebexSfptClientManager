@@ -1,0 +1,205 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Rebex.Common/6.0.8314": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Rebex.Common.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Rebex.Common.dll": {}
+        }
+      },
+      "Rebex.Networking/6.0.8314": {
+        "type": "package",
+        "dependencies": {
+          "Rebex.Common": "[6.0.8314]"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Rebex.Networking.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Rebex.Networking.dll": {}
+        }
+      },
+      "Rebex.Sftp/6.0.8314": {
+        "type": "package",
+        "dependencies": {
+          "Rebex.Common": "[6.0.8314]",
+          "Rebex.Networking": "[6.0.8314]"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Rebex.Sftp.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Rebex.Sftp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Rebex.Common/6.0.8314": {
+      "sha512": "YbHETHmTFbmHCyW5V9lQzsk9+Nysj3DyJ1MYtP7SQhKW/gC1xAZT3cHGXNz0aYhKVN3TUt88QNvcDfrK2SqmaQ==",
+      "type": "package",
+      "path": "rebex.common/6.0.8314",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/Rebex.Common.png",
+        "lib/net35/Rebex.Common.dll",
+        "lib/net35/Rebex.Common.xml",
+        "lib/net40/Rebex.Common.dll",
+        "lib/net40/Rebex.Common.xml",
+        "lib/net46/Rebex.Common.dll",
+        "lib/net46/Rebex.Common.xml",
+        "lib/net5.0/Rebex.Common.dll",
+        "lib/net5.0/Rebex.Common.xml",
+        "lib/net6.0/Rebex.Common.dll",
+        "lib/net6.0/Rebex.Common.xml",
+        "lib/netcoreapp3.1/Rebex.Common.dll",
+        "lib/netcoreapp3.1/Rebex.Common.xml",
+        "lib/netstandard2.0/Rebex.Common.dll",
+        "lib/netstandard2.0/Rebex.Common.xml",
+        "lib/netstandard2.1/Rebex.Common.dll",
+        "lib/netstandard2.1/Rebex.Common.xml",
+        "license.txt",
+        "rebex.common.6.0.8314.nupkg.sha512",
+        "rebex.common.nuspec"
+      ]
+    },
+    "Rebex.Networking/6.0.8314": {
+      "sha512": "S0NM0oELZ14sWaqy3rmseWExPwjYEKKLOjxCw8xjgw6KnWTgA+zoFoxEVHem3RY8/Ztai8EskxnT7CuccdBQJA==",
+      "type": "package",
+      "path": "rebex.networking/6.0.8314",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/Rebex.Networking.png",
+        "lib/net35/Rebex.Networking.dll",
+        "lib/net35/Rebex.Networking.xml",
+        "lib/net40/Rebex.Networking.dll",
+        "lib/net40/Rebex.Networking.xml",
+        "lib/net46/Rebex.Networking.dll",
+        "lib/net46/Rebex.Networking.xml",
+        "lib/net5.0/Rebex.Networking.dll",
+        "lib/net5.0/Rebex.Networking.xml",
+        "lib/net6.0/Rebex.Networking.dll",
+        "lib/net6.0/Rebex.Networking.xml",
+        "lib/netcoreapp3.1/Rebex.Networking.dll",
+        "lib/netcoreapp3.1/Rebex.Networking.xml",
+        "lib/netstandard2.0/Rebex.Networking.dll",
+        "lib/netstandard2.0/Rebex.Networking.xml",
+        "lib/netstandard2.1/Rebex.Networking.dll",
+        "lib/netstandard2.1/Rebex.Networking.xml",
+        "license.txt",
+        "rebex.networking.6.0.8314.nupkg.sha512",
+        "rebex.networking.nuspec"
+      ]
+    },
+    "Rebex.Sftp/6.0.8314": {
+      "sha512": "G3ntaIiceBLe2/CoLlyY4TlYqSXMWEv504kQuQz37ZwoCpJTIrQvgnD9t2oji4mEzJgvnQU8dnfmiV8Oa7R8oQ==",
+      "type": "package",
+      "path": "rebex.sftp/6.0.8314",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/Rebex.Sftp.png",
+        "lib/net35/Rebex.Sftp.dll",
+        "lib/net35/Rebex.Sftp.xml",
+        "lib/net40/Rebex.Sftp.dll",
+        "lib/net40/Rebex.Sftp.xml",
+        "lib/net46/Rebex.Sftp.dll",
+        "lib/net46/Rebex.Sftp.xml",
+        "lib/net5.0/Rebex.Sftp.dll",
+        "lib/net5.0/Rebex.Sftp.xml",
+        "lib/net6.0/Rebex.Sftp.dll",
+        "lib/net6.0/Rebex.Sftp.xml",
+        "lib/netcoreapp3.1/Rebex.Sftp.dll",
+        "lib/netcoreapp3.1/Rebex.Sftp.xml",
+        "lib/netstandard2.0/Rebex.Sftp.dll",
+        "lib/netstandard2.0/Rebex.Sftp.xml",
+        "lib/netstandard2.1/Rebex.Sftp.dll",
+        "lib/netstandard2.1/Rebex.Sftp.xml",
+        "license.txt",
+        "rebex.sftp.6.0.8314.nupkg.sha512",
+        "rebex.sftp.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Rebex.Sftp >= 6.0.8314"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\DigeshSahu\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\DigeshSahu\\Downloads\\SftpClient\\SftpClient\\SftpClient.csproj",
+      "projectName": "SftpClient",
+      "projectPath": "C:\\Users\\DigeshSahu\\Downloads\\SftpClient\\SftpClient\\SftpClient.csproj",
+      "packagesPath": "C:\\Users\\DigeshSahu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DigeshSahu\\Downloads\\SftpClient\\SftpClient\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\DigeshSahu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Rebex.Sftp": {
+            "target": "Package",
+            "version": "[6.0.8314, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

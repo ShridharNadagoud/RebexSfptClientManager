@@ -1,0 +1,78 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SftpClient/1.0.0": {
+        "dependencies": {
+          "Rebex.Sftp": "6.0.8314"
+        },
+        "runtime": {
+          "SftpClient.dll": {}
+        }
+      },
+      "Rebex.Common/6.0.8314": {
+        "runtime": {
+          "lib/netcoreapp3.1/Rebex.Common.dll": {
+            "assemblyVersion": "6.0.8314.0",
+            "fileVersion": "6.0.8314.0"
+          }
+        }
+      },
+      "Rebex.Networking/6.0.8314": {
+        "dependencies": {
+          "Rebex.Common": "6.0.8314"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Rebex.Networking.dll": {
+            "assemblyVersion": "6.0.8314.0",
+            "fileVersion": "6.0.8314.0"
+          }
+        }
+      },
+      "Rebex.Sftp/6.0.8314": {
+        "dependencies": {
+          "Rebex.Common": "6.0.8314",
+          "Rebex.Networking": "6.0.8314"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Rebex.Sftp.dll": {
+            "assemblyVersion": "6.0.8314.0",
+            "fileVersion": "6.0.8314.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SftpClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rebex.Common/6.0.8314": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YbHETHmTFbmHCyW5V9lQzsk9+Nysj3DyJ1MYtP7SQhKW/gC1xAZT3cHGXNz0aYhKVN3TUt88QNvcDfrK2SqmaQ==",
+      "path": "rebex.common/6.0.8314",
+      "hashPath": "rebex.common.6.0.8314.nupkg.sha512"
+    },
+    "Rebex.Networking/6.0.8314": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S0NM0oELZ14sWaqy3rmseWExPwjYEKKLOjxCw8xjgw6KnWTgA+zoFoxEVHem3RY8/Ztai8EskxnT7CuccdBQJA==",
+      "path": "rebex.networking/6.0.8314",
+      "hashPath": "rebex.networking.6.0.8314.nupkg.sha512"
+    },
+    "Rebex.Sftp/6.0.8314": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G3ntaIiceBLe2/CoLlyY4TlYqSXMWEv504kQuQz37ZwoCpJTIrQvgnD9t2oji4mEzJgvnQU8dnfmiV8Oa7R8oQ==",
+      "path": "rebex.sftp/6.0.8314",
+      "hashPath": "rebex.sftp.6.0.8314.nupkg.sha512"
+    }
+  }
+}

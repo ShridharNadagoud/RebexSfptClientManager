@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "XX7/YU2zKcJuxzuBSc0VOGnzYLGdglMfhlvqdIHTrCRBJwgkp/kW/4rJUqDq7nEjIheJ4xhkzaL70oYAdvwRlw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DigeshSahu\\Downloads\\SftpClient\\SftpClient\\SftpClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DigeshSahu\\.nuget\\packages\\rebex.common\\6.0.8314\\rebex.common.6.0.8314.nupkg.sha512",
+    "C:\\Users\\DigeshSahu\\.nuget\\packages\\rebex.networking\\6.0.8314\\rebex.networking.6.0.8314.nupkg.sha512",
+    "C:\\Users\\DigeshSahu\\.nuget\\packages\\rebex.sftp\\6.0.8314\\rebex.sftp.6.0.8314.nupkg.sha512"
+  ],
+  "logs": []
+}
